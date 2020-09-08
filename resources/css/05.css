@@ -1,0 +1,54 @@
+#c-name{color:red;}
+#c-16{color: #FFBB00;}
+#c-rgb{color:rgb(89, 190, 21)}
+#c-rgba{color:rgba(200, 30, 70, 0.5)}
+#c-hsl{color:hsl(200, 90%, 70%)}  /* h : 색상값(0~360),  s : 채도(%),  l : 명도(%) */
+#c-hsla{color:hsla(200, 50%, 50%, 0.4)}
+
+
+#td1{text-decoration: underline;}
+#td2{text-decoration: line-through;}
+#td3{text-decoration: overline;}
+#td4{
+    text-decoration: none;
+    color: black;
+}
+
+
+#tt1{text-transform: uppercase;}
+#tt2{text-transform: lowercase;}
+#tt3{text-transform: capitalize;}
+
+
+#ta1{text-align:left;}
+#ta2{text-align: justify;}
+#ta3{text-align: right;}
+#ta4{text-align: center;}
+
+
+.shadow{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+#ts1{
+    color:orangered;
+    text-shadow:5px 5px 10px yellow;
+}
+#ts2{
+    color:white;
+    text-shadow:0px 0px 10px black;
+}
+#ts3{
+    color:white;
+    text-shadow: 0px 5px 10px yellowgreen;
+}
+#ts4{
+    text-shadow: 0px 0px 4px gray, 0px -5px 4px yellow, 0px -10px 8px orange, 0px -15px 14px orangered, 0px -22px 19px red;
+}
+
+
+
+
+

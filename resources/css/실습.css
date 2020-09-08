@@ -1,0 +1,16 @@
+fieldset{
+    border-style: none;
+    background-color: rgb(255, 148, 157);
+}
+body{
+    width: 350px;
+    background-color: pink;
+    border-radius: 30px;
+}
+button{
+    background-color: red;
+    border-style: none;
+    height: 30px;
+    border-radius: 8px;
+
+}

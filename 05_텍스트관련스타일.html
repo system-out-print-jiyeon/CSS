@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 관련 스타일</title>
+    <link rel="stylesheet" href="resources/css/05.css">
+</head>
+<body>
+    <h1>텍스트 스타일 (text~)</h1>
+
+    <h3>color : 텍스트의 색상을 지정</h3>
+    <pre>
+    선택자 {
+        color:색상명 | 16진수 | rgb | rgba | hsl | hsla;
+   }
+    </pre>
+
+    <ul>
+        <li id="c-name">색상명으로 지정</li>
+        <li id="c-16">16진수로 지정</li>
+        <li id="c-rgb">rgb로 지정</li>
+        <li id="c-rgba">rgba로 지정</li>
+        <li id="c-hsl">hsl로 지정</li>
+        <li id="c-hsla">hsla로 지정</li>
+    </ul>
+
+
+    <hr>
+
+    <h3>text-decoration : 텍스트에 줄을 긋거나 줄을 없앨 때 사용</h3>
+    <pre>
+    선택자{
+        text-decoration:none | underline | overline | line-through;
+    }
+    </pre>
+
+    <ul>
+        <li id="td1">텍스트 영역 아래 줄 긋기</li>
+        <li id="td2">텍스트 영역 중간에 줄 긋기</li>
+        <li id="td3">텍스트 영역 위 줄 긋기</li>
+    </ul>
+    
+    <a href="" id="td4">네이버로</a>
+
+
+    <hr>
+
+    <h3>text-transform : 영문 텍스트의 대소문자 변환시 사용</h3>
+
+    <pre>
+    선택자{
+        text-transform:uppercase | lowercase | capitalize;        
+    }
+    </pre>
+
+    <ul>
+        <li id="tt1">uppercase : 모든 영문자 다 대문자로</li>
+        <li id="tt2">lowercase : 모든 영문자 다 소문자로</li>
+        <li id="tt3">capitalize : 영문자의 firsttext만 대문자로</li>
+    </ul>
+
+    <hr>
+
+    <h3>text-align : 텍스트 정렬할 때 사용</h3>
+    <pre>
+    선택자{
+        text-align:left(기본값) | right | center | justify;
+    }
+    </pre>
+
+    <h4>왼쪽 정렬 (기본값)</h4>
+    <p id="ta1">
+        못하다 영락과 우리 밥을 부패뿐이다. 이상, 그들의 열락의 곳이 방지하는 대중을 사라지지 대한 고행을 운다. 일월과 것은 새가 광야에서 놀이 꽃이 살 바이며, 곳으로 있다. 바로 능히 생명을 황금시대의 그들을 온갖 청춘의 주는 대고, 있으랴? 청춘의 산야에 찬미를 길지 있는 인류의 행복스럽고 싹이 것이다. 트고, 유소년에게서 품고 있는가? 되려니와, 설레는 목숨을 같은 우리는 위하여, 무엇을 길을 작고 말이다. 인간의 얼마나 예수는 날카로우나 별과 수 있음으로써 이 그리하였는가? 갑 그들은 그들은 뜨고, 그와 이것이야말로 얼마나 가슴에 위하여서.
+    </p>
+
+    <h4>양쪽 정렬</h4>
+    <p id="ta2">
+        못하다 영락과 우리 밥을 부패뿐이다. 이상, 그들의 열락의 곳이 방지하는 대중을 사라지지 대한 고행을 운다. 일월과 것은 새가 광야에서 놀이 꽃이 살 바이며, 곳으로 있다. 바로 능히 생명을 황금시대의 그들을 온갖 청춘의 주는 대고, 있으랴? 청춘의 산야에 찬미를 길지 있는 인류의 행복스럽고 싹이 것이다. 트고, 유소년에게서 품고 있는가? 되려니와, 설레는 목숨을 같은 우리는 위하여, 무엇을 길을 작고 말이다. 인간의 얼마나 예수는 날카로우나 별과 수 있음으로써 이 그리하였는가? 갑 그들은 그들은 뜨고, 그와 이것이야말로 얼마나 가슴에 위하여서.
+    </p>
+
+    <h4>오른쪽 정렬</h4>
+    <p id="ta3">
+        못하다 영락과 우리 밥을 부패뿐이다. 이상, 그들의 열락의 곳이 방지하는 대중을 사라지지 대한 고행을 운다. 일월과 것은 새가 광야에서 놀이 꽃이 살 바이며, 곳으로 있다. 바로 능히 생명을 황금시대의 그들을 온갖 청춘의 주는 대고, 있으랴? 청춘의 산야에 찬미를 길지 있는 인류의 행복스럽고 싹이 것이다. 트고, 유소년에게서 품고 있는가? 되려니와, 설레는 목숨을 같은 우리는 위하여, 무엇을 길을 작고 말이다. 인간의 얼마나 예수는 날카로우나 별과 수 있음으로써 이 그리하였는가? 갑 그들은 그들은 뜨고, 그와 이것이야말로 얼마나 가슴에 위하여서.
+    </p>
+
+    <h4>가운데 정렬</h4>
+    <p id="ta4">
+        못하다 영락과 우리 밥을 부패뿐이다. 이상, 그들의 열락의 곳이 방지하는 대중을 사라지지 대한 고행을 운다. 일월과 것은 새가 광야에서 놀이 꽃이 살 바이며, 곳으로 있다. 바로 능히 생명을 황금시대의 그들을 온갖 청춘의 주는 대고, 있으랴? 청춘의 산야에 찬미를 길지 있는 인류의 행복스럽고 싹이 것이다. 트고, 유소년에게서 품고 있는가? 되려니와, 설레는 목숨을 같은 우리는 위하여, 무엇을 길을 작고 말이다. 인간의 얼마나 예수는 날카로우나 별과 수 있음으로써 이 그리하였는가? 갑 그들은 그들은 뜨고, 그와 이것이야말로 얼마나 가슴에 위하여서.
+    </p>
+
+
+    <hr>
+
+    <h3>text-shadow : 텍스트에 그림자효과를 줄 때 사용</h3>
+    <pre>
+    선택자{
+        text-shadow:가로거리(x) 세로거리(y) [번짐정도] [색상];
+    }
+    </pre>
+
+    <div>
+        <span class="shadow" id="ts1">HTML5</span> <br><br><br>
+        <span class="shadow" id="ts2">HTML5</span> <br><br><br>
+        <span class="shadow" id="ts3">HTML5</span> <br><br><br>
+        <span class="shadow" id="ts4">HTML5</span> <br><br><br>
+    </div>
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테두리 관련 스타일</title>
+    <style>
+        div{
+            width: 100px;
+            height:100px;
+            margin: 15px;
+            border-width: 3px;
+        }
+
+        #test1{
+            border-style: dotted;
+            border-top-width: 10px;
+        }
+        #test2{
+            box-shadow: 5px 5px 10px 5px gray;
+        }
+        #test3{
+            border-style: dashed;
+            border-right-color: red;
+        }
+        #test4{
+            border-style: double;
+            border-left-style: dotted;
+            border-top-style: dashed;
+            border-bottom-style: solid;
+        }
+        #test5{
+            border-width: 10px;
+            border-style: groove;
+            border-top-left-radius: 50px;
+        }
+        #test6{
+            border-width: 10px;
+            border-style: ridge;
+            border-bottom-right-radius: 80px;
+        }
+        #test7{
+            border-style: inset;
+            border-width: 5px;
+            border-top-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            background: yellow;
+        }
+        #test8{
+            border-style: outset;
+        }
+        #test9{
+            border-style: solid;
+            border-radius: 50px;
+        }        
+        #test10{
+            border: 10px dashed pink;
+        }
+        #btn{
+            /* border:2px dashed pink; */
+            border:none;
+            border-radius: 10px;
+            padding:5px;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <h1>테두리 관련 스타일</h1>
+    <pre>
+    선택자{
+        * 테두리 모양
+        border[-위치]-style:none | dotted | dashed | solid | double | groove | ridge | inset | outset;
+
+        * 테두리 두께
+        border[-위치]-width:테두리두께;
+
+        * 테두리 색상
+        border[-위치]-color:테두리색상;
+
+        * 테두리 두께, 모양, 색상 한꺼번에
+        border[-위치]:두께 모양 색상;
+
+        * 테두리 모서리를 둥그스름하게
+        border[-위/아래위치-좌/우위치]-radius:숫자;
+
+        * 테두리 그림자 효과
+        box-shadow:가로거리 세로거리 흐림정도 번짐정도 색상;
+    }
+    </pre>
+
+    <div id="test1"></div>
+    <div id="test2"></div>
+    <div id="test3"></div>
+    <div id="test4"></div>
+    <div id="test5"></div>
+    <div id="test6"></div>
+    <div id="test7"></div>
+    <div id="test8"></div>
+    <div id="test9"></div>
+    <div id="test10"></div>
+
+    <button id="btn">로그인</button>
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
