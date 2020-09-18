@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/실습.css">
+</head>
+<body>
+    <br>
+    <form action="test.do">
+        <fieldset>
+            <legend><b>고객정보</b></legend>
+            고객명 : 
+            <input type="text" name="userName" required><br>
+            전화번호 : 
+            <input type="text" name="phone" maxlength=13> <br>
+            E-mail : 
+            <input type="email" name="email">
+        </fieldset>
+
+        <fieldset>
+            <legend><b>피자 사이즈</b></legend>
+            <input type="radio" id="small" name="size" value="s">
+            <label for="small">Small</label><br>
+            <input type="radio" id="medium" name="size" value="m">
+            <label for="medium">Medium</label><br>
+            <input type="radio" id="large" name="size" value="l">
+            <label for="large">Large</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>토핑 선택</b></legend>
+            <input type="checkbox" id="bacon" name="toping" value="bacon">
+            <label for="bacon">베이컨</label><br>
+            <input type="checkbox" id="cheese" name="toping" value="cheese">
+            <label for="cheee">치즈</label><br>
+            <input type="checkbox" id="onion" name="toping" value="onion">
+            <label for="onion">양파</label><br>
+            <input type="checkbox" id="mushroom" name="toping" value="mushroom">
+            <label for="mushroom">버섯</label>
+        </fieldset>
+
+        <br>
+
+        희망 배송 시간 : 
+        <input type="time">
+
+        <br><br>
+
+        <button type="submit">주문하기</button>
+    
+    </form>
+<br>
+
+
+
+
+
+
+
+
+</body>
+</html>
